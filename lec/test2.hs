@@ -1,0 +1,1 @@
+sum_first4 list = sum (take 4 list)

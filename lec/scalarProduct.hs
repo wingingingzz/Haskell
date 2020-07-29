@@ -1,0 +1,1 @@
+scalarProduct xs ys = sum [x * y | (x, i) <- zip xs [0..], (y, j) <- zip ys [0..], i == j]
